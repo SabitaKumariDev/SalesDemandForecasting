@@ -136,7 +136,10 @@ Libraries:
 2. Implement advanced neural network models like Transformers for improved accuracy.
 3. Develop a web interface for interactive forecasting and visualization.
 
-References
+**References**
+
   ARIMA Model Documentation
+  
   Prophet Documentation
+  
   TensorFlow LSTM Guide
