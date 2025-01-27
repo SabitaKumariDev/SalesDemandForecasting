@@ -138,8 +138,8 @@ Libraries:
 
 **References**
 
-      ARIMA Model Documentation
-      
-      Prophet Documentation
-      
-      TensorFlow LSTM Guide
+  ARIMA Model Documentation
+  
+  Prophet Documentation
+  
+  TensorFlow LSTM Guide
