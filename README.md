@@ -79,39 +79,40 @@ Libraries:
     Assess model performance using MAE, MSE, and RMSE.
 
 **Examples**
+
 **Example: Visualizing Sales Trends**
 
-  import pandas as pd
-  
-  import matplotlib.pyplot as plt
-  
-  data = pd.read_csv('perrin-freres-monthly-champagne-.csv')
-  
-  data['Month'] = pd.to_datetime(data['Month'])
-  
-  data.set_index('Month', inplace=True)
-  
-  plt.plot(data['Sales'])
-  
-  plt.title('Monthly Champagne Sales')
-  
-  plt.xlabel('Month')
-  
-  plt.ylabel('Sales')
-  
-  plt.show()
+        import pandas as pd
+        
+        import matplotlib.pyplot as plt
+        
+        data = pd.read_csv('perrin-freres-monthly-champagne-.csv')
+        
+        data['Month'] = pd.to_datetime(data['Month'])
+        
+        data.set_index('Month', inplace=True)
+        
+        plt.plot(data['Sales'])
+        
+        plt.title('Monthly Champagne Sales')
+        
+        plt.xlabel('Month')
+        
+        plt.ylabel('Sales')
+        
+        plt.show()
 
 **Example: Running an ARIMA Model**
 
-  from statsmodels.tsa.arima.model import ARIMA
-  
-  model = ARIMA(data['Sales'], order=(5, 1, 0))
-  
-  model_fit = model.fit()
-  
-  forecast = model_fit.forecast(steps=12)
-  
-  print(forecast)
+      from statsmodels.tsa.arima.model import ARIMA
+      
+      model = ARIMA(data['Sales'], order=(5, 1, 0))
+      
+      model_fit = model.fit()
+      
+      forecast = model_fit.forecast(steps=12)
+      
+      print(forecast)
 
 **Results**
 
