@@ -35,14 +35,23 @@ This project implements an inventory demand forecasting system to predict future
 **Prerequisites**
 
 Python 3.8 or higher
+
 Libraries:
+
   pandas
+  
   numpy
+  
   matplotlib
+  
   seaborn
+  
   scikit-learn
+  
   statsmodels
+  
   tensorflow (if using LSTMs)
+  
   fbprophet (optional for Prophet model)
 
 **Steps**
